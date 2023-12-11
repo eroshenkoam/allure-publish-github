@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Dec 11 20:18:43 GMT 2023","Mon Dec 11 20:18:43 GMT 2023","21","","org.example.junit5.StepTest","","org.example.junit5.StepTest","annotatedStepTest","annotatedStepTest()",""
+"passed","Mon Dec 11 20:18:43 GMT 2023","Mon Dec 11 20:18:43 GMT 2023","36","","org.example.junit5.StepTest","","org.example.junit5.StepTest","lambdaStepTest","lambdaStepTest()",""
