@@ -22,6 +22,14 @@ public class StepTest {
         });
     }
 
+    @Test
+    public void mixedTest() {
+        final String localParameter = "parameter value";
+        Allure.step(String.format("Parent lambda step with parameter [%s]", localParameter), (step) -> {
+            nestedAnnotatedStep();
+        });
+    }
+
     @Step("Parent annotated step with parameter [{parameter}]")
     public void annotatedStep(final String parameter) {
         nestedAnnotatedStep();
